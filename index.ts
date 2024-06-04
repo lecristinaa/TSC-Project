@@ -90,10 +90,7 @@ console.log(consultorio)
 console.log('\n ----------- \n')
 
 // Adiciona pacientes na fila de triagem
-// pacientes.forEach(paciente => {
-//     const pacienteTriado = triagem(paciente);
-//     queue.enqueue(consultorio[0].fila, pacienteTriado);
-// });
+
 
 console.log("Pacientes em seus setores \n")
 function triar(paciente: Paciente[]) {
@@ -146,13 +143,4 @@ function realizarConsultas() {
 realizarConsultas()
 console.log('\n ----------- \n')
 
-// // Simula o processo completo
-// function simularConsultorio() {
-//     console.log("Iniciando encaminhamento para setores...");
-//     encaminharParaSetor();
 
-//     console.log("\nIniciando consultas...");
-//     realizarConsultas();
-// }
-
-// simularConsultorio();
